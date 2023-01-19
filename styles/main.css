@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(to bottom, #8637CA, #030437);
+  background-repeat: no-repeat;
+  height: 100vw;
+  background-color: #030437;
+  font-family: 'Merienda';
+  font-size: large;
+}  
+
+.banner {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1%;
+  color: #030437;
+}
+
+.content {
+  background-color:#c78bfc97;
+  width: 90%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  color: #030437;
+  width: 100%;
+  margin: auto;
+  padding-top: 1%;
+  background-color: #c78bfc;
+}
+
+p {  
+  width: 90%;
+  margin: auto;
+  padding-top: 3%;
+  font-family: 'Merienda';
+}
+
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 82%;
+  margin-top: 0%;
+  margin-right: auto;
+  margin-bottom: 2%;
+  margin-left: auto;
+  padding-top: 1%;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom:1%;
+
+  background-color: #c78bfc;
+  text-align: center;
+
+}
+
+#title_image {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.button:visited {
+  color: #c78bfc;
+}
+
+.button:hover {
+  background-color: #030437;
+  color: #c78bfc;
+  margin: 0%;
+ padding: 0%;
+
+} 
+
+#avatar{
+  border-radius: 50%;
+  background-color: black;
+  width: 20%;
+}
+
+
+/*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
+/@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }*/
+
+
+
+/*to experiment with later
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: #666;}
+*/

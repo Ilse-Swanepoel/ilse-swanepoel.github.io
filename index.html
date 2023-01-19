@@ -1,9 +1,61 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>My blog</title>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <title>My Learning Journey</title>
+    </head>
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
+    
+    <!--Background Image and Gradient-->
+    
+    <div class="gradient"></div>
+
+    <!--Banner which will be the same on every page-->
+    <div class="banner">
+      <a href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2023/01/19/flamingtext_com_1674101176_667412852.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com" width="90%"></a>
+      <br/>Logo Design by <a href="https://flamingtext.com/" >FlamingText.com</a>
+    </div>
+
+    <!--Blog Title Image-->
+    <div class="blog_image">
+      <img src="\\wsl.localhost\Ubuntu\home\ilse-swanepoel\devacademy\ilse-swanepoel.github.io\Blog Pic.png" id="title_image">
+    </div>
+
+    <!--Navigation bar which will be the same on every page except we need to add ids so we can see what page we are on-->
+    <div class="navigation" class="flex">
+
+        <div class="button"><a href="index.html" class="active">Home</a></div>
+        <div class="button"><a href="blog/blog_index.html">Blog</a></div>
+        <div class="button"><a href="games.html">Games</a></div>
+        <div class="button"><a href="side_projects.html">Side Projects</a></div>
+
+    </div>
+    <div class="content">
+    <h1 class="heading">My Learning Journey</h1> 
     <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <p> 
+      <ul>
+      <li>vw (viewport width): 10vw would be 10% of the viewport's width.</li>
+      
+      <li>vh (viewport height): 3vh would be 3% of the viewport's height. </li>
+   
+      <li>vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).</li>
+   
+      <li>vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width)..</li>
+    </ul>
+   </p>
+   <div class="flex" class="aboutme">
+      <h1 class="heading">Welcome</h1>
+      <img src="\\wsl.localhost\Ubuntu\home\ilse-swanepoel\devacademy\ilse-swanepoel.github.io\gaming.png" alt="Avatar" id="avatar">
+
+    </div>
+      <p></p>
+    </div>
+  </div>
   </body>
 </html>
