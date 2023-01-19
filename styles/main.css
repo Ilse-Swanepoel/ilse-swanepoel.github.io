@@ -30,11 +30,39 @@ body {
   background-color: #c78bfc;
 }
 
+.video{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
+
 p {  
   width: 90%;
   margin: auto;
   padding-top: 3%;
   font-family: 'Merienda';
+}
+
+.subheading{
+  text-align: center;
+  color: #030437;
+  width: 100%;
+  margin: auto;
+  padding-top: 1%;
+  background-color: #c78bfc;
+
+}
+
+.title_heading {
+  text-align: center;
+  color: #030437;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3%;
+  padding-top: 1%;
+  background-color: #c78bfc;
 }
 
 
@@ -82,6 +110,18 @@ p {
   border-radius: 50%;
   background-color: black;
   width: 20%;
+}
+
+div.static_info{
+  position: relative;
+}
+
+#cake_image{
+  position: absolute;
+  left: 80%;
+  top: 15%;
+  width: 15%;
+
 }
 
 #donkey_image {

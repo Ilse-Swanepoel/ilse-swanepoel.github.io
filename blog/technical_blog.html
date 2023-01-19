@@ -20,16 +20,20 @@
 
     </div>
 
-<h1 class="heading">
-  Tech - Static, Relative, Absolute and Fixed Positioning
-</h1>
+    <h1 class="title_heading">
+      Tech - Static, Relative, Absolute and Fixed Positioning
+    </h1>
 
-<div class="content">
+    <div class="content">
+
+<div class="static_info">
 
   <h2 class="subheading">Static Positioning</h2>
-  <img src="rainbow cake for static.jpg" id="cake_image">
   
-  <p> "Ogers are like onions... "
+  <p>
+    <img src="rainbowcake.png" id="cake_image" alt="rainbow cake">
+    <class="green-text">"Ogers are like onions... "</class>
+   
     <br>
     and so is static postioning! 
     <br>
@@ -39,36 +43,77 @@
 <br>
 <br>
 Static positioning is simply layers on a website that start from top to bottom. If you put a red layer at the top, nothing else goes into that layer. If you add another layer, it will automatically go underneath the red layer. This all works together to make a very tasty looking webpage... if you like layers ;p
-  
-    <iframe class="video" src="https://www.youtube.com/embed/-FtCTW2rVFM?start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  
+<br>
+<br>
+
+<iframe height="315" src="https://www.youtube.com/embed/-FtCTW2rVFM?start=44&end=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+    <br>
   </p>  
 
-<h2 class="subheading">Relative Positioning</h2>
-<p>
+</div>
 
+<div>
+<h2 class="heading">Relative Positioning</h2>
+<p>
+Now that I'm on the theme of Shrek, I'm just going to roll with it. Let's look at relative positioning. Below we can see a picture of Shrek.
+
+<br>
+<br>
+Now if I add Fiona... This happens.
+
+<br>
+<br>
+I can change Fiona's location to be relative to Shrek by using... you guessed it... relative positioning!
+<br>
+code
+<br>
+<br>
+Images
+
+</p>
+
+<h2 class="heading">Absolute Positioning</h2>
+<p> This one, had me seriously confused. Everytime I used absolute, it would just do the same as relative. I found an image on W3School (which is great if you haven't checked it out yet). It shows that an absolute element must have a parent element otherwise it will use the body or HTML as a parent. I tried putting my absolute element uder div parents but it still didn't work. 
+  <br>
+  <br>
+  Finally, I realised that W3School also included the parent whose position was relative. 
+  <br>
+  <br>
+  Now this analogy is a bit of a stretch but bare with me. Imagine a small clingy child who always wants to hold the hand of their parent. If the parent all of a sudden vanishes, the small child, helpless, seeks another hand to hold. (Remember this is an analogy only). This means if there is no parent element, the 'child' element will find the next closest thing.
+  <br>
+  <br>
+  An issue occurs though if the adult themselves is lost. If they do not know their own position relative to the world (or in this case our DOM), they can't look after their child and the child will seek another 'parent'.
+<br>
+<br>
+  I hope this analogy wasn't too traumatic for anyone.
+
+  <br>
+  <br>
 
 
 </p>
 
-<h2 class="subheading">Absolute Positioning</h2>
-<p>
+
+</div>
+<div>
 
 
-
-</p>
-
-<h2 class="subheading">Fixed Positioning</h2>
+<h2 class="heading">Fixed Positioning</h2>
 <p>
 Imagine you have a sticky note stuck to your screen. If you scroll with your mouse, does it move? No.
 <br>
+<br>
 An image or other element such as a navigaion bar can have fixed postitioning. This means that even if you scroll, it will stay in the same place. The position of the element is based on your window and will stay in the same spot in your window. 
 <br>
+<br>
 See donkey to the side by the scroll bar? He is an example of a fixed element.
-
+<br>
+<br>
 <img src="donkey.png" id="donkey_image">
 
   
 </p>
 </div>
 
+</div>
