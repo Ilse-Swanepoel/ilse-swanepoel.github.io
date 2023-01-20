@@ -30,11 +30,9 @@
 
   <h2 class="subheading">Static Positioning</h2>
   
-  <p>
-    <img src="rainbowcake.png" id="cake_image" alt="rainbow cake">
-    <class="green-text">"Ogers are like onions... "</class>
-   
-    <br>
+  
+    <p class="green_text">"Ogers are like onions... "</p>
+    <p>
     and so is static postioning! 
     <br>
 "Why?" I hear you ask... because they all have layers!
@@ -45,8 +43,18 @@
 Static positioning is simply layers on a website that start from top to bottom. If you put a red layer at the top, nothing else goes into that layer. If you add another layer, it will automatically go underneath the red layer. This all works together to make a very tasty looking webpage... if you like layers ;p
 <br>
 <br>
+Here is an example of static layers. See the beautiful layered rainbow?
+<ul>
+  <li class="red_bg">Red</li>
+  <li class="orange_bg">Orange</li>
+  <li class="yellow_bg">Yellow</li>
+  <li class="green_bg">Green</li>
+  <li class="blue_bg">Blue</li>
+  <li class="indigo_bg">Indigo</li>
+  <li class="violet_bg">Violet</li>
+</ul>
 
-<iframe height="315" src="https://www.youtube.com/embed/-FtCTW2rVFM?start=44&end=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+<iframe class="video" height="315" src="https://www.youtube.com/embed/-FtCTW2rVFM?start=44&end=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
     <br>
   </p>  
@@ -74,11 +82,13 @@ Images
 </p>
 
 <h2 class="heading">Absolute Positioning</h2>
-<p> This one, had me seriously confused. Everytime I used absolute, it would just do the same as relative. I found an image on W3School (which is great if you haven't checked it out yet). It shows that an absolute element must have a parent element otherwise it will use the body or HTML as a parent. I tried putting my absolute element uder div parents but it still didn't work. 
+<p> This one, had me seriously confused. Everytime I used absolute, it would just do the same as relative. I found an image on  <a target="_blank" href="https://www.w3schools.com/css/css_positioning.asp">W3School</a> (which is great if you haven't checked it out yet). It shows that an absolute element must have a parent element otherwise it will use the body or HTML as a parent. I tried putting my absolute element uder div parents but it still didn't work. 
   <br>
   <br>
   Finally, I realised that W3School also included the parent whose position was relative. 
   <br>
+  <br>
+  <a target="_blank" href="https://www.w3schools.com/css/css_positioning.asp"><img id="W3S_img" src="\\wsl.localhost\Ubuntu\home\ilse-swanepoel\devacademy\ilse-swanepoel.github.io\blog\Absolute_Positioning_Example.png"></a>
   <br>
   Now this analogy is a bit of a stretch but bare with me. Imagine a small clingy child who always wants to hold the hand of their parent. If the parent all of a sudden vanishes, the small child, helpless, seeks another hand to hold. (Remember this is an analogy only). This means if there is no parent element, the 'child' element will find the next closest thing.
   <br>

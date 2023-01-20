@@ -31,9 +31,10 @@ body {
 }
 
 .video{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  right:2.5%;
   width: auto;
   margin: auto;
 }
@@ -129,6 +130,67 @@ div.static_info{
   bottom: 0;
   right: 0;
   width: 10%;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  left: -5%;
+  margin:auto;
+  width:50%;
+  text-align: center;
+}
+
+.red_bg {
+  background-color: red;
+  color: white;
+}
+
+.orange_bg {
+  background-color: orange;
+  color: white;
+}
+
+.yellow_bg {
+  background-color: yellow;
+  color: black;
+}
+
+.green_bg {
+  background-color: green;
+  color: white;
+}
+
+.blue_bg {
+  background-color: blue;
+  color: white;
+}
+
+.indigo_bg {
+  background-color: indigo;
+  color: white;
+}
+
+.violet_bg {
+  background-color: violet;
+  color: white;
+}
+
+.green_text{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(13, 71, 13);
+  font-size: larger;
+  font-weight: 800;
+}
+
+#W3S_img{
+  width:80%;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  
+
+
 }
 
 /*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
