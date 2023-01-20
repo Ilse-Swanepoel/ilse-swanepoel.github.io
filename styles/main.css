@@ -188,8 +188,43 @@ li {
   display: flex;
   justify-content: center;
   margin:auto;
-  
+}
 
+#shrek_img{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+
+}
+
+
+#fiona_img{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
+
+div.clear{
+  width:80%;
+  display: flex;
+  justify-content:left;
+  margin:auto;
+}
+
+#shrek_img_relative{
+  position: relative;
+  width: 20%;
+  left: 10%;
+
+}
+
+
+#fiona_img_relative{
+  position: relative;
+  width: 10%;
+  left: 20%;
 
 }
 
