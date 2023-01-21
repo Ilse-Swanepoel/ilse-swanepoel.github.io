@@ -106,11 +106,23 @@ p {
 
 } 
 
-#avatar{
-  
+.aboutme{
+  position: relative;
+  margin: auto;
+}
+
+.about_me_info{
+  margin: auto;
+}
+.about_me_image{
+  position: relative;
   border-radius: 50%;
   background-color: black;
   width: 20%;
+  margin: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+ 
 }
 
 div.static_info{
