@@ -280,6 +280,11 @@ div.clear{
   
 }
 
+.question {
+  width: 90%;
+  margin: auto;
+}
+
 /*Media Queries*/
 
 @media (max-width: 400px){
