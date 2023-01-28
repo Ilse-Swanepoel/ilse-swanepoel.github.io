@@ -34,7 +34,6 @@ body {
   display: block;
   text-align: center;
   position: relative;
-  right:2.5%;
   width: auto;
   margin: auto;
 }
@@ -264,18 +263,38 @@ div.clear{
 
 }
 
+.Q_A{
+  width: 90%;
+  margin: auto;
+}
+
+
+.rainbow {
+  width: 85%;
+  list-style-type: none;
+  list-style: none;
+ padding: auto;
+ margin:auto;
+ margin-left: -2%;
+
+  
+}
+
+/*Media Queries*/
 
 @media (max-width: 400px){
   .navigation{
 font-size: 12px;
   }
 
-
-
 p {
   font-size: 12px;
 }
 
+
+.content {
+  font-size: 12px;
+}
 
   .heading {
     font-size: 20px;
@@ -284,7 +303,23 @@ p {
   .subheading {
     font-size: 20px;
   }
+
+  .title_heading{
+    font-size: 25px;
   }
+
+  .video {
+    width: 200px;
+    margin: auto;
+  
+  }
+
+  .rainbow {
+width: 150px;
+margin-left: -2%;
+  }
+  }
+
 
 /*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
 /@media (max-width: 800px) {
