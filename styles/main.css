@@ -144,14 +144,6 @@ div.static_info{
   width: 10%;
 }
 
-li {
-  list-style-type: none;
-  position: relative;
-  left: -5%;
-  margin:auto;
-  width:50%;
-  text-align: center;
-}
 
 .red_bg {
   background-color: red;
@@ -271,6 +263,15 @@ div.clear{
   background-color:#030437;
 
 }
+
+
+@media (max-width: 400px){
+  .navigation{
+font-size: 12px;
+  }
+}
+
+@media (max-width: 400px)
 
 /*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
 /@media (max-width: 800px) {
