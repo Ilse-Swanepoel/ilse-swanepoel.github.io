@@ -251,7 +251,7 @@ div.clear{
 }
 
 .post{
-  width: 30%;
+  width: 330px;
   background-color: #030437;
   color: azure;
   margin: auto;
@@ -269,9 +269,22 @@ div.clear{
   .navigation{
 font-size: 12px;
   }
+
+
+
+p {
+  font-size: 12px;
 }
 
-@media (max-width: 400px)
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .subheading {
+    font-size: 20px;
+  }
+  }
 
 /*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
 /@media (max-width: 800px) {
