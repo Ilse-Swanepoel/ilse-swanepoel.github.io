@@ -285,6 +285,13 @@ div.clear{
   margin: auto;
 }
 
+.EQ-Image{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 /*Media Queries*/
 
 @media (max-width: 400px){
