@@ -357,11 +357,25 @@ margin-left: -2%;
     justify-content: center;
   }
 
+  .js-list{
+    margin-left: 10%;
+  }
+
 
   @media (max-width: 400px){
     .js-image{
   width: 250px;
     }
+
+    .picture-heading {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+
   }
 
 /*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
