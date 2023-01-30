@@ -350,6 +350,13 @@ margin-left: -2%;
     justify-content: center;
   }
 
+  .long-image{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
 
   @media (max-width: 400px){
     .js-image{
