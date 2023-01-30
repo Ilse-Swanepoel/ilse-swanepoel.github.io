@@ -333,6 +333,30 @@ margin-left: -2%;
   }
   }
 
+/*JS FUNDAMENTALS CODE*/
+.picture-heading {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.js-image {
+  
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+@media (max-width: 400px){
+  .js-image{
+width: 200px;
+  }
+}
+
 
 /*mediaquery thing for width of under 480 so that navigation bar doesn't screw up
 /@media (max-width: 800px) {
