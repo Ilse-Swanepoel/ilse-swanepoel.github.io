@@ -19,6 +19,7 @@ body {
   background-color:#c78bfc97;
   width: 90%;
   margin: auto;
+  font-size: 16px;
 }
 
 .heading {
@@ -286,6 +287,12 @@ div.clear{
   margin-bottom: 20px;
 }
 
+.questionx {
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+}
+
 .EQ-Image{
   width: 80%;
   margin: auto;
@@ -325,6 +332,12 @@ p {
     width: 200px;
     margin: auto;
   
+  }
+
+  .questionx {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
   }
 
   .rainbow {
